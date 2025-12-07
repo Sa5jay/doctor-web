@@ -9,15 +9,15 @@ import CountUp from "@/components/CountUp";
 
 const DoctorReg = () => {
   const sec1imageLogos = [
-    { src: "/src/assets/DoctorRegImg/logo1.png" },
-    { src: "/src/assets/DoctorRegImg/logo2.png" },
-    { src: "/src/assets/DoctorRegImg/logo3.png" },
-    { src: "/src/assets/DoctorRegImg/logo4.png" },
-    { src: "/src/assets/DoctorRegImg/logo5.png" },
-    { src: "/src/assets/DoctorRegImg/logo6.png" },
-    { src: "/src/assets/DoctorRegImg/logo7.png" },
-    { src: "/src/assets/DoctorRegImg/logo8.png" },
-    { src: "/src/assets/DoctorRegImg/logo9.png" },
+    { src: "/DoctorRegImg/logo1.png" },
+    { src: "/DoctorRegImg/logo2.png" },
+    { src: "/DoctorRegImg/logo3.png" },
+    { src: "/DoctorRegImg/logo4.png" },
+    { src: "/DoctorRegImg/logo5.png" },
+    { src: "/DoctorRegImg/logo6.png" },
+    { src: "/DoctorRegImg/logo7.png" },
+    { src: "/DoctorRegImg/logo8.png" },
+    { src: "/DoctorRegImg/logo9.png" },
   ];
   const Sec3 = [
     {
@@ -84,7 +84,7 @@ const DoctorReg = () => {
         <header>
           <div className="bg-linear-to-r from-[#FFE6A5] to-[#FFF6DD] w-full flex-col flex  items-center md:h-[122px]">
             <img
-              src="/src/assets/DoctorRegImg/logoname.png"
+              src="/DoctorRegImg/logoname.png"
               className=" w-32 md:w-50 mt-2 mb-5 md:mb-5"
             />
             <nav className="rounded-4xl p-1 md:p-2 bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
@@ -170,7 +170,7 @@ const DoctorReg = () => {
 
                 <div className="shrink-0 w-full md:w-auto flex justify-center md:justify-end">
                   <img
-                    src="/src/assets/DoctorRegImg/header.png"
+                    src="/DoctorRegImg/header.png"
                     alt="Amrutam"
                     className="w-40 md:w-[420px] h-auto object-contain"
                   />
@@ -222,7 +222,7 @@ const DoctorReg = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6">
                 <div className="flex justify-center md:justify-start">
                   <img
-                    src="/src/assets/DoctorRegImg/sec2img1.png"
+                    src="/DoctorRegImg/sec2img1.png"
                     alt="Instant Call"
                     className="w-40 md:w-96 h-auto object-contain"
                   />
@@ -253,7 +253,7 @@ const DoctorReg = () => {
                 </div>
                 <div className="order-1 md:order-2 flex justify-center md:justify-end">
                   <img
-                    src="/src/assets/DoctorRegImg/sec2img2.png"
+                    src="/DoctorRegImg/sec2img2.png"
                     alt="Forum"
                     className="w-40 md:w-96 h-auto object-contain"
                   />
@@ -262,7 +262,7 @@ const DoctorReg = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6">
                 <div className="flex justify-center md:justify-start">
                   <img
-                    src="/src/assets/DoctorRegImg/sec2img3.png"
+                    src="/DoctorRegImg/sec2img3.png"
                     alt="Session Mode"
                     className="w-40 md:w-96 h-auto object-contain"
                   />
@@ -293,7 +293,7 @@ const DoctorReg = () => {
                 </div>
                 <div className="order-1 md:order-2 flex justify-center md:justify-end">
                   <img
-                    src="/src/assets/DoctorRegImg/sec2img4.png"
+                    src="/DoctorRegImg/sec2img4.png"
                     alt="Smart Wallet"
                     className="w-40 md:w-96 h-auto object-contain"
                   />
@@ -303,7 +303,7 @@ const DoctorReg = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6 pb-6">
                 <div className="flex justify-center md:justify-start">
                   <img
-                    src="/src/assets/DoctorRegImg/sec2img3.png"
+                    src="/DoctorRegImg/sec2img3.png"
                     alt="Flexible Timing"
                     className="w-40 md:w-96 h-auto object-contain"
                   />
@@ -351,7 +351,7 @@ const DoctorReg = () => {
 
             <div className="md:mt-20 flex justify-center md:justify-end w-full md:w-auto">
               <img
-                src="/src/assets/DoctorRegImg/sec3img1.png"
+                src="/DoctorRegImg/sec3img1.png"
                 className="w-58 sm:w-64 md:w-auto"
                 alt="steps visual"
               />
@@ -379,14 +379,14 @@ const DoctorReg = () => {
                   Value Your Practice
                 </h2>
                 <img
-                  src="/src/assets/DoctorRegImg/sec3img2.png"
+                  src="/DoctorRegImg/sec3img2.png"
                   className="mx-auto mt-2 w-[100px] sm:w-[90px] md:w-full md:max-w-[288px] h-auto"
                 />
               </div>
 
               <div className="text-center text-[#3A643C]">
                 <img
-                  src="/src/assets/DoctorRegImg/sec3img2.png"
+                  src="/DoctorRegImg/sec3img2.png"
                   className="mx-auto w-[100px] sm:w-[90px] md:w-full md:max-w-[288px] h-auto"
                 />
                 <h2 className="text-[10px] sm:text-xs md:text-2xl mt-2 font-bold">
@@ -399,7 +399,7 @@ const DoctorReg = () => {
                   Consultation Details
                 </h2>
                 <img
-                  src="/src/assets/DoctorRegImg/sec3img2.png"
+                  src="/DoctorRegImg/sec3img2.png"
                   className="mx-auto mt-2 w-[100px] sm:w-[90px] md:w-full md:max-w-[288px] h-auto"
                 />
               </div>
@@ -432,7 +432,7 @@ const DoctorReg = () => {
                 >
                   <div className="flex items-start gap-3">
                     <img
-                      src="/src/assets/DoctorRegImg/sec4profile.svg"
+                      src="/DoctorRegImg/sec4profile.svg"
                       alt={`${item.name} profile`}
                       className="w-12 h-12 rounded-full shrink-0"
                     />
@@ -502,7 +502,7 @@ const DoctorReg = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-[#33643F]">
                   <div className="border flex gap-3 items-center rounded-md p-2 border-[#9E9E9E]">
                     <img
-                      src="/src/assets/DoctorRegImg/sec5leafimg.svg"
+                      src="/DoctorRegImg/sec5leafimg.svg"
                       className="w-8 h-8 sm:w-10 sm:h-10"
                     />
                     <p className="text-sm sm:text-base leading-tight">
@@ -514,7 +514,7 @@ const DoctorReg = () => {
 
                   <div className="border flex gap-3 items-center rounded-md p-2 border-[#9E9E9E]">
                     <img
-                      src="/src/assets/DoctorRegImg/sec5moneyimg.svg"
+                      src="/DoctorRegImg/sec5moneyimg.svg"
                       className="w-8 h-8 sm:w-10 sm:h-10"
                     />
                     <p className="text-sm sm:text-base leading-tight">
@@ -526,7 +526,7 @@ const DoctorReg = () => {
 
                   <div className="border flex gap-3 items-center rounded-md p-2 border-[#9E9E9E]">
                     <img
-                      src="/src/assets/DoctorRegImg/sec5callimg.svg"
+                      src="/DoctorRegImg/sec5callimg.svg"
                       className="w-8 h-8 sm:w-10 sm:h-10"
                     />
                     <p className="text-sm sm:text-base leading-tight">
@@ -538,7 +538,7 @@ const DoctorReg = () => {
 
                   <div className="border flex gap-3 items-center rounded-md p-2 border-[#9E9E9E]">
                     <img
-                      src="/src/assets/DoctorRegImg/sec5walletimg.svg"
+                      src="/DoctorRegImg/sec5walletimg.svg"
                       className="w-8 h-8 sm:w-10 sm:h-10"
                     />
                     <p className="text-sm sm:text-base leading-tight">

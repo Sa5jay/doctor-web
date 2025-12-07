@@ -31,10 +31,10 @@ const DoctorFaq = () => {
             <a>Forum</a>
             <a>About Us</a>
             <div className="flex ml-30 gap-8">
-              <img src="/src/assets/DoctoFaqImg/wallet.svg" alt="wallet" />
-              <img src="/src/assets/DoctoFaqImg/cart.svg" alt="cart" />
-              <img src="/src/assets/DoctoFaqImg/bellicon.svg" alt="bell" />
-              <img src="/src/assets/DoctoFaqImg/profile.svg" alt="profile" />
+              <img src="/DoctoFaqImg/wallet.svg" alt="wallet" />
+              <img src="/DoctoFaqImg/cart.svg" alt="cart" />
+              <img src="/DoctoFaqImg/bellicon.svg" alt="bell" />
+              <img src="/DoctoFaqImg/profile.svg" alt="profile" />
             </div>
           </div>
         </div>
@@ -88,19 +88,19 @@ const DoctorFaq = () => {
                 <h3 className="text-sm text-gray-600 mb-3">Quick actions</h3>
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <img src="/src/assets/DoctoFaqImg/wallet.svg" className="w-6 h-6" alt="wallet" />
+                    <img src="/DoctoFaqImg/wallet.svg" className="w-6 h-6" alt="wallet" />
                     <span className="text-sm font-medium">Wallet</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="/src/assets/DoctoFaqImg/cart.svg" className="w-6 h-6" alt="cart" />
+                    <img src="/DoctoFaqImg/cart.svg" className="w-6 h-6" alt="cart" />
                     <span className="text-sm font-medium">Cart</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="/src/assets/DoctoFaqImg/bellicon.svg" className="w-6 h-6" alt="notifications" />
+                    <img src="/DoctoFaqImg/bellicon.svg" className="w-6 h-6" alt="notifications" />
                     <span className="text-sm font-medium">Notifications</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="/src/assets/DoctoFaqImg/profile.svg" className="w-7 h-7" alt="profile" />
+                    <img src="/DoctoFaqImg/profile.svg" className="w-7 h-7" alt="profile" />
                     <span className="text-sm font-medium">Profile</span>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const DoctorFaq = () => {
       </nav>
 
       <header
-        className="w-full bg-[url('/src/assets/DoctoFaqImg/header.png')] bg-cover bg-center"
+        className="w-full bg-[url('/DoctoFaqImg/header.png')] bg-cover bg-center"
         style={{ minHeight: "202px" }}
       >
         <div className="max-w-7xl mx-auto px-4 py-6 md:py-10 flex flex-col items-center">
@@ -251,7 +251,7 @@ const DoctorFaq = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-[#33643F]">
               <div className="border flex gap-3 items-center rounded-md py-2 border-[#9E9E9E]">
                 <img
-                  src="/src/assets/DoctoFaqImg/msg.svg"
+                  src="/DoctoFaqImg/msg.svg"
                   className="w-8 h-8 sm:w-12 sm:h-12"
                 />
                 <p className="text-sm sm:text-base leading-tight">
@@ -263,7 +263,7 @@ const DoctorFaq = () => {
 
               <div className="border flex gap-3 items-center rounded-md py-2 border-[#9E9E9E]">
                 <img
-                  src="/src/assets/DoctoFaqImg/msg.svg"
+                  src="/DoctoFaqImg/msg.svg"
                   className="w-8 h-8 sm:w-12 sm:h-12"
                 />
                 <p className="text-sm sm:text-base leading-tight">
@@ -275,7 +275,7 @@ const DoctorFaq = () => {
 
               <div className="border flex gap-3 items-center rounded-md py-2 border-[#9E9E9E]">
                 <img
-                  src="/src/assets/DoctoFaqImg/msg.svg"
+                  src="/DoctoFaqImg/msg.svg"
                   className="w-8 h-8 sm:w-12 sm:h-12"
                 />
                 <p className="text-sm sm:text-base leading-tight">
@@ -287,7 +287,7 @@ const DoctorFaq = () => {
 
               <div className="border flex gap-3 items-center rounded-md py-2 border-[#9E9E9E]">
                 <img
-                  src="/src/assets/DoctoFaqImg/msg.svg"
+                  src="/DoctoFaqImg/msg.svg"
                   className="w-8 h-8 sm:w-12 sm:h-12"
                 />
                 <p className="text-sm sm:text-base leading-tight">
@@ -327,7 +327,7 @@ const DoctorFaq = () => {
 
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <img
-              src="/src/assets/DoctorRegImg/sec5img1.svg"
+              src="/DoctorRegImg/sec5img1.svg"
               className="w-full max-w-[420px] h-auto"
             />
           </div>
