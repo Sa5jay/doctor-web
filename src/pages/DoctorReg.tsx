@@ -4,8 +4,8 @@ import LogoLoop from "@/components/LogoLoop";
 import { FaApple } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import Footer from "@/components/Footer";
-import StaggerChars from "@/components/ui/stagger-chars";
 import { Link } from "react-router-dom";
+import CountUp from "@/components/CountUp";
 
 const DoctorReg = () => {
   const sec1imageLogos = [
@@ -85,9 +85,9 @@ const DoctorReg = () => {
           <div className="bg-linear-to-r from-[#FFE6A5] to-[#FFF6DD] w-full flex-col flex  items-center md:h-[122px]">
             <img
               src="/src/assets/DoctorRegImg/logoname.png"
-              className=" w-32 md:w-50 mt-2 mb-5 md:mb-10"
+              className=" w-32 md:w-50 mt-2 mb-5 md:mb-5"
             />
-            <nav className="rounded-4xl p-1 md:p-3 bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
+            <nav className="rounded-4xl p-1 md:p-2 bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
               <ul className="flex  md:gap-10 text-sm md:text-lg font-medium">
                 <li className="px-3 py-2 rounded-md hover:bg-white/5 transition">
                   About Us
@@ -126,21 +126,41 @@ const DoctorReg = () => {
                   </p>
 
                   <div className="mt-6 md:mt-8">
-                    <Button className="bg-[#3A643C] text-white font-medium rounded-md px-6 py-2 md:px-10 md:py-4">
-                      <StaggerChars text="Join Now" className="text-white" />
+                    <Button className="bg-[#3A643C] text-lg text-white font-medium rounded-md px-6 py-2 md:px-10 md:py-4">
+                      Join Now
                     </Button>
                   </div>
 
                   <div className="flex gap-6 md:gap-12 mt-6 md:mt-8">
                     <div className="text-center">
-                      <p className="text-lg md:text-2xl font-semibold">500+</p>
+                      <p className="text-lg md:text-2xl font-semibold">
+                        <CountUp
+                          from={0}
+                          to={500}
+                          separator=","
+                          direction="up"
+                          duration={1}
+                          className="count-up-text"
+                        />
+                        +
+                      </p>
                       <p className="text-xs md:text-sm text-gray-700">
                         Average Active Users
                       </p>
                     </div>
 
                     <div className="text-center">
-                      <p className="text-lg md:text-2xl font-semibold">40+</p>
+                      <p className="text-lg md:text-2xl font-semibold">
+                        <CountUp
+                          from={0}
+                          to={40}
+                          separator=","
+                          direction="up"
+                          duration={1}
+                          className="count-up-text"
+                        />
+                        +
+                      </p>
                       <p className="text-xs md:text-sm text-gray-700">
                         Average daily free calls
                       </p>
@@ -387,8 +407,8 @@ const DoctorReg = () => {
           </div>
 
           <div className="flex justify-center">
-            <Button className="bg-[#3A643C]  text-white mt-10 w-32 md:w-40 py-2">
-              <StaggerChars text="Join Now" className="text-white" />
+            <Button className="bg-[#3A643C] text-lg text-white mt-10 w-32 md:w-40 py-2">
+              Join Now
             </Button>
           </div>
         </section>
