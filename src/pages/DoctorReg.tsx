@@ -82,19 +82,27 @@ const DoctorReg = () => {
 
       <main className="bg-[#FFF8E6]">
         <header>
-          <div className="bg-[#FFF7E2] w-full flex-col flex  items-center md:h-[122px]">
+          <div className="bg-linear-to-r from-[#FFE6A5] to-[#FFF6DD] w-full flex-col flex  items-center md:h-[122px]">
             <img
               src="/src/assets/DoctorRegImg/logoname.png"
               className=" w-32 md:w-50 mt-2 mb-5 md:mb-10"
             />
-            <nav>
-              <ul className="flex gap-5 md:gap-10 text-sm md:text-lg font-medium">
-                <li>About Us</li>
-                <li>Onboarding</li>
+            <nav className="rounded-4xl p-1 md:p-3 bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
+              <ul className="flex  md:gap-10 text-sm md:text-lg font-medium">
+                <li className="px-3 py-2 rounded-md hover:bg-white/5 transition">
+                  About Us
+                </li>
+                <li className="px-3 py-2 rounded-md hover:bg-white/5 transition">
+                  Onboarding
+                </li>
                 <Link to={"/faq"}>
-                  <li>FAQ</li>
+                  <li className="px-3 py-2 rounded-md hover:bg-white/5 transition">
+                    FAQ
+                  </li>
                 </Link>
-                <li>Testimonials</li>
+                <li className="px-3 py-2 rounded-md hover:bg-white/5 transition">
+                  Testimonials
+                </li>
               </ul>
             </nav>
           </div>
