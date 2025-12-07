@@ -578,7 +578,7 @@ const DoctorReg = () => {
 
               <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
                 <img
-                  src="/src/assets/DoctorRegImg/sec5img1.svg"
+                  src="/DoctorRegImg/sec5img1.svg"
                   className="w-full max-w-[420px] h-auto"
                 />
               </div>
@@ -601,7 +601,7 @@ const DoctorReg = () => {
             <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-12">
               <div className="w-full lg:w-1/2 flex justify-center">
                 <img
-                  src="/src/assets/DoctorRegImg/sec6img.jpg"
+                  src="/DoctorRegImg/sec6img.jpg"
                   alt="Connect"
                   className="w-full max-w-[498px] md:h-[471px] rounded-lg h-auto object-cover"
                 />

@@ -19,7 +19,7 @@ const DoctorFaq = () => {
       <nav className="pt-5 pb-5">
         <div className="hidden md:flex flex-col justify-between items-center">
           <img
-            src="src/assets/DoctorRegImg/logoname.png"
+            src="/DoctorRegImg/logoname.png"
             className="w-48 mb-10"
             alt="logo"
           />
@@ -42,7 +42,7 @@ const DoctorFaq = () => {
         <div className="md:hidden">
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <img
-              src="src/assets/DoctorRegImg/logoname.png"
+              src="/DoctorRegImg/logoname.png"
               className="w-40"
               alt="logo"
             />
@@ -67,7 +67,7 @@ const DoctorFaq = () => {
 
             <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl shadow-xl p-6 max-h-[85vh] overflow-auto">
               <div className="flex items-center justify-between mb-4">
-                <img src="src/assets/DoctorRegImg/logoname.png" className="w-36" alt="logo" />
+                <img src="/DoctorRegImg/logoname.png" className="w-36" alt="logo" />
                 <button onClick={() => setOpen(false)} aria-label="Close menu" className="p-2">
                   <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
