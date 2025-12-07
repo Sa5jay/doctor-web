@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-[#DBDCC4] pt-10 pb-10 px-4 md:px-0">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-evenly gap-8 md:gap-0">
     <div className="w-full md:w-auto text-center md:text-left">
-      <img src="/src/assets/DoctorRegImg/logoname.png" className="w-40 md:w-48 mb-4 mx-auto md:mx-0" />
+      <img src="/DoctorRegImg/logoname.png" className="w-40 md:w-48 mb-4 mx-auto md:mx-0" />
       <h2 className="text-[#33643F] ml-0 md:ml-4 font-semibold mb-2 text-xl">Get in touch</h2>
       <p className="mb-5 md:ml-4">support@amrutam.global</p>
       <p className="mb-2 md:ml-4 text-sm">
