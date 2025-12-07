@@ -50,7 +50,6 @@ const defaultTitle = "CREATE STUNNING INTERFACES WITH SCROLLX-UI COMPONENTS";
 function AnimatedCounter({
   value,
   suffix = "",
-  duration = 1,
   delay = 0,
   label,
 }: {
@@ -84,7 +83,7 @@ function AnimatedCounter({
   }, [rounded]);
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout;
+    let timeout: ReturnType<typeof setTimeout>;
     if (isInView) {
       motionValue.set(0);
       timeout = setTimeout(() => {
@@ -129,7 +128,7 @@ function AnimatedCounter({
       </motion.div>
       <motion.p
         className={cn(
-          "text-gray-600 dark:text-gray-400 text-xs sm:text-sm leading-relaxed px-1 sm:px-2 hyphens-auto break-words"
+          "text-gray-600 dark:text-gray-400 text-xs sm:text-sm leading-relaxed px-1 sm:px-2 hyphens-auto wrap-break-word"
         )}
         style={{ wordBreak: "break-word", overflowWrap: "break-word" }}
         initial={{ opacity: 0 }}
